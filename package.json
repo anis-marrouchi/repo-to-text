@@ -1,0 +1,24 @@
+{
+  "name": "repototext",
+  "version": "1.0.1",
+  "description": "A CLI tool to save a repository's content to a text file. It works with both public and private repositories. Github and Gitlab are supported.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "repototext": "index.js",
+    "repo-to-text": "index.js",
+    "repototxt": "index.js",
+    "repo-to-txt": "index.js"
+  },
+  "keywords": [],
+  "author": "Anis Marrouchi",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.6.0"
+  }
+}
