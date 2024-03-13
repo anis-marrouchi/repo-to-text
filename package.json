@@ -1,6 +1,6 @@
 {
   "name": "repototext",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool to save a repository's content to a text file. It works with both public and private repositories. Github and Gitlab are supported.",
   "main": "index.js",
   "scripts": {
